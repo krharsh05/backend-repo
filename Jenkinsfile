@@ -133,7 +133,7 @@ def gitCheckout(branchDir, branchName, credentialsId, gitRepoURL) {
 
 
 def createBuild(sagHome, abeHome, buildVersion, ciWorkspace) {
-	"$abeHome/bin/build.bat \
+	bat "$abeHome/bin/build.bat \
 		-Dsag.install.dir=$sagHome \
         -Dbuild.source.dir=$ciWorkspace/source/is \
         -Dbuild.output.dir=$ciWorkspace/build/is \
