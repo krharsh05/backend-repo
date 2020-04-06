@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="name">addLongIntegers</value>
+  <value name="encodeutf8">true</value>
+  <value name="body">CQ0KLy8gcGlwZWxpbmUNCklEYXRhQ3Vyc29yIHBpcGVsaW5lQ3Vyc29yID0gcGlwZWxpbmUuZ2V0
+Q3Vyc29yKCk7DQoJU3RyaW5nCWxvbmdJbnQxID0gSURhdGFVdGlsLmdldFN0cmluZyggcGlwZWxp
+bmVDdXJzb3IsICJsb25nSW50MSIgKTsNCglTdHJpbmcJbG9uZ0ludDIgPSBJRGF0YVV0aWwuZ2V0
+U3RyaW5nKCBwaXBlbGluZUN1cnNvciwgImxvbmdJbnQyIiApOw0KcGlwZWxpbmVDdXJzb3IuZGVz
+dHJveSgpOw0KDQpsb25nIGludDEgPSBJbnRlZ2VyLnBhcnNlSW50KGxvbmdJbnQxKTsNCmxvbmcg
+aW50MiA9IEludGVnZXIucGFyc2VJbnQobG9uZ0ludDIpOw0KbG9uZyBzdW1PZkxvbmdJbnRzID0g
+aW50MSArIGludDI7DQoNCi8vIHBpcGVsaW5lDQpJRGF0YUN1cnNvciBwaXBlbGluZUN1cnNvcl8x
+ID0gcGlwZWxpbmUuZ2V0Q3Vyc29yKCk7DQpJRGF0YVV0aWwucHV0KCBwaXBlbGluZUN1cnNvcl8x
+LCAic3VtT2ZMb25nSW50cyIsIHN1bU9mTG9uZ0ludHMgKTsNCnBpcGVsaW5lQ3Vyc29yXzEuZGVz
+dHJveSgpOw==</value>
+</Values>
