@@ -117,11 +117,12 @@ pipeline {
 			}
 		}		
 			
+*/
 
 		}
 	}
 	
-*/
+
 
 def gitCheckout(branchDir, branchName, credentialsId, gitRepoURL) {
 	dir ("$branchDir") {
