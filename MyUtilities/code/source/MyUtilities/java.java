@@ -42,6 +42,7 @@ public final class java
 		
 		long int1 = Integer.parseInt(longInt1);
 		long int2 = Integer.parseInt(longInt2);
+		
 		long sumOfLongInts = int1 + int2;
 		
 		// pipeline

@@ -273,6 +273,9 @@
 
 <MAPDELETE FIELD="/value;1;0">
 </MAPDELETE>
+
+<MAPDELETE FIELD="/inString2;1;0">
+</MAPDELETE>
 </MAP>
 </INVOKE>
 </FLOW>
