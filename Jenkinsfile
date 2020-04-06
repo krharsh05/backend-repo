@@ -104,6 +104,7 @@ pipeline {
 			}
 		}
 
+/*
 
 		stage ('Deploy Build') {				
 			steps {
@@ -120,7 +121,7 @@ pipeline {
 		}
 	}
 	
-
+*/
 
 def gitCheckout(branchDir, branchName, credentialsId, gitRepoURL) {
 	dir ("$branchDir") {
@@ -143,6 +144,8 @@ def createBuild(sagHome, abeHome, buildVersion, ciWorkspace) {
         -Denable.archive=true"
 	
 	}
+
+/*
 
 def createProject(sagHome, abeHome, deployerHome, buildVersion, projectAutomatorFile, projectAutomatorTemplate, deployerHost, deployerPort, deployerUser, deployerPwd, projName, depSetName, depMapName, depCanName, deployerRepoName, deployerRepoPath, serverAlias, serverHost, serverPort, user, pwd, version, assetPrefix) {
 
@@ -201,4 +204,4 @@ def deployBuild(deployerHome, projName, depCanName, deployerHost, deployerPort, 
 }
 
 
-
+*/
