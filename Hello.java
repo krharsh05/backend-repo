@@ -15,8 +15,11 @@ public class Hello{
     System.out.println("Revision 12");
     System.out.println("Revision 13");
     System.out.println("Revision 14");
+<<<<<<< HEAD
     System.out.println("Revision 15");
     System.out.println("Revision 16");
     System.out.println("Revision 17");
+=======
+>>>>>>> 700d57a6bdcacf9a9ca9aed050794183810a7c5f
   }
 }
