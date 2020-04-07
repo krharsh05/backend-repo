@@ -108,10 +108,10 @@ pipeline {
 
 		stage ('Deploy Build') {				
 			steps {
-					print " ----- Create Project ----- "
+/*					print " ----- Create Project ----- "
 				createProject("${SAG_HOME}", "${ABE_HOME}", "${SAG_HOME}/${DEPLOYER_HOME}", "${BUILD_VERSION}", "C:/Demo/CICD/CIScripts/ProjectAutomatorIS.xml", "C:/Demo/CICD/CIScripts/ProjectAutomatorIS.tpl", "${DEPLOYER_HOST}", "${DEPLOYER_PORT}", "${DEPLOYER_USER}", "${DEPLOYER_PWD}", "${PROJECT_NAME_IS}", "${DEP_SET_IS}", "${DEP_MAP_IS}", "${DEP_CAN_IS}", "${REPO_NAME}", "${JENKINS_WS}/build/is", "${TARGET_ALIAS_IS}", "${TARGET_HOST_IS}", "${TARGET_PORT_IS}", "${TARGET_USER_IS}", "${TARGET_PWD_IS}", "${TARGET_VERSION_IS}","${PKG_PREFIX}")
 				
-/*
+
 					print " ----- Deploy Build ----- "
 				deployBuild("${SAG_HOME}/${DEPLOYER_HOME}","${PROJECT_NAME_IS}","${DEP_CAN_IS}","${DEPLOYER_HOST}", "${DEPLOYER_PORT}", "${DEPLOYER_USER}", "${DEPLOYER_PWD}")
 				
@@ -137,7 +137,7 @@ def gitCheckout(branchDir, branchName, credentialsId, gitRepoURL) {
 
 
 def createBuild(sagHome, abeHome, buildVersion, ciWorkspace) {
-	"$abeHome/bin/build.bat \
+	bat "$abeHome/bin/build.bat \
 		-Dsag.install.dir=$sagHome \
         -Dbuild.source.dir=$ciWorkspace/source/is \
         -Dbuild.output.dir=$ciWorkspace/build/is \
