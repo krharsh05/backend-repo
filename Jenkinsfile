@@ -105,7 +105,7 @@ pipeline {
 		}
 
 
-/*
+
 		stage ('Deploy Build') {				
 			steps {
 					print " ----- Create Project ----- "
@@ -117,8 +117,7 @@ pipeline {
 				
 				
 			}
-		}		
-*/			
+		}					
 
 
 		}
@@ -148,7 +147,7 @@ def createBuild(sagHome, abeHome, buildVersion, ciWorkspace) {
 	
 	}
 
-/*
+
 
 def createProject(sagHome, abeHome, deployerHome, buildVersion, projectAutomatorFile, projectAutomatorTemplate, deployerHost, deployerPort, deployerUser, deployerPwd, projName, depSetName, depMapName, depCanName, deployerRepoName, deployerRepoPath, serverAlias, serverHost, serverPort, user, pwd, version, assetPrefix) {
 
@@ -208,4 +207,4 @@ def deployBuild(deployerHome, projName, depCanName, deployerHost, deployerPort, 
 }
 
 
-*/
+
